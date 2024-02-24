@@ -22,6 +22,7 @@ def create_task(name, frame):
 class App:
     def __init__(self):
         window = customtkinter.CTk()
+        window.title('Todo')
         self.task_view_frame = customtkinter.CTkScrollableFrame(master=window)
         self.task_view_frame.pack()
 
